@@ -4650,7 +4650,7 @@ var DayComponent = exports.DayComponent = function (_BaseComponent) {
         step: '1',
         min: '1',
         placeholder: (0, _get4.default)(this.component, 'fields.year.placeholder', ''),
-        value: new Date().getFullYear(),
+        value: "",
         id: this.component.key + '-year'
       });
       this.addEventListener(this.yearInput, 'change', function () {

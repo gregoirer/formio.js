@@ -107,7 +107,7 @@ export class DayComponent extends BaseComponent {
       step: '1',
       min: '1',
       placeholder: _get(this.component, 'fields.year.placeholder', ''),
-      value: (new Date().getFullYear()),
+      value: "",
       id: this.component.key + '-year'
     });
     this.addEventListener(this.yearInput, 'change', () => this.updateValue());
